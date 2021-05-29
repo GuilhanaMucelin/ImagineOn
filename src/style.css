@@ -99,7 +99,7 @@ li {
 .slide__copy {
     position: absolute;
     left: 50vw;
-    top: 100px;
+    top: 75px;
 }
 
 .slide__copy h6 {
@@ -121,4 +121,25 @@ li {
 
 .slide__copy h2 span {
     display: block;
+}
+
+.btn {
+    padding: 16px 40px;
+    color: var(--color-primary);
+    border: 2px solid #fff;
+    border-radius: 40px;
+    background: unset;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.btn:hover, 
+.btn:active, 
+.btn:focus {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
 }
