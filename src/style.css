@@ -16,6 +16,12 @@ body {
     padding-top: 125px;
 }
 
+header,
+main,
+footer {
+    overflow-x: hidden;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -152,6 +158,9 @@ li {
 }
 
 .counter__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
     margin: 0;
     padding: 70px 16px;
 }
