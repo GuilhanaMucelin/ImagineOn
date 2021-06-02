@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,6 +9,7 @@
     font-size: 16px;
     --color-primary: #ffc500;
     --default-padding: 16px;
+    --color-copy: #333;
 }
 
 body {
@@ -144,7 +145,8 @@ li {
 
 .btn:hover, 
 .btn:active, 
-.btn:focus {
+.btn:focus,
+.btn--institutional {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
@@ -154,7 +156,6 @@ li {
     background-color: var(--color-primary);
     color: #fff;
     text-transform: uppercase;
-
 }
 
 .counter__container {
@@ -173,3 +174,45 @@ li {
     display: block;
     font-size: 20px; 
 }
+
+.institutional {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    align-items: center;
+    padding: 70px;
+
+}
+
+.institutional__copy {
+    padding: 0 30px;
+}
+
+.institutional__copy h6 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 55px;
+}
+
+.institutional__copy h4 {
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+.institutional__copy p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 0;
+    margin-bottom: 40px;
+}
+
+.btn--institutional:hover {
+    color: var(--color-copy);
+    background: unset;
+
+}
+
