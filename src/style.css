@@ -23,6 +23,11 @@ footer {
     overflow-x: hidden;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -36,16 +41,20 @@ li {
 .navbar {
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar__container {
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 125px;
     padding: 0 16px;
-    background-color: #000;
-    color: #fff;
 }
 
 .navbar__links {
@@ -162,7 +171,6 @@ li {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
-    margin: 0;
     padding: 70px 16px;
 }
 
@@ -184,6 +192,10 @@ li {
 
 }
 
+.institutional__image {
+    max-width: 550px;
+}
+
 .institutional__copy {
     padding: 0 30px;
 }
@@ -194,7 +206,6 @@ li {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 0;
-    margin-top: 55px;
 }
 
 .institutional__copy h4 {
