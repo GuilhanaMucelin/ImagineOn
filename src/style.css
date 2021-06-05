@@ -93,7 +93,6 @@ li {
 .logo-studion__subtitle {
   font-size: 14px;
   font-weight: 300;
-  float: right;
 }
 
 #slider {
@@ -275,4 +274,31 @@ li {
 .btn--quote {
   color: var(--color-copy);
   border-color: var(--color-copy);
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+}
+
+.logo-studion__subtitle {
+    display: block;
+}
+
+.footer_form {
+    justify-self: center;
+}
+
+.footer_social {
+    justify-self: end;
 }
