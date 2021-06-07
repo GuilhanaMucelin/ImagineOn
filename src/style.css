@@ -312,6 +312,7 @@ li {
 }
 
 .footer_form fieldset {
+  position: relative;
   border: unset;
   margin: 0;
   padding: 0;
@@ -320,8 +321,63 @@ li {
 
 .footer_form input {
   width: 100%;
+  background-color: var(--color-primary);
+  border: unset;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer_form input::placeholder{
+  color: #000;
+}
+
+.footer_form input:focus {
+  outline: unset;
+}
+
+.footer_form button {
+  cursor: pointer;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  border: unset;
+  height: 48px;
+  width: 48px;
+  transition: 0.3s all ease;
+}
+
+.footer_form button:hover {
+  color: #fff;
+  background-color: var(--color-copy);
 }
 
 .footer_social {
     justify-self: end;
+}
+
+.footer_social a,
+.footer_social a:visited,
+.footer_social a:active{
+  color: #fff;
+}
+
+.footer_social a .fa-twitter,
+.footer_social a:visited .fa-twitter,
+.footer_social a:active .fa-twitter{
+  color: #000;
+}
+
+.footer hr {
+  border-color: #fff4;
+  margin: 0;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 38px 0;
 }
