@@ -291,6 +291,7 @@ li {
 .footer .logo-studion {
     justify-self: start;
     margin: 0;
+    margin-left: 15px;
 }
 
 .logo-studion__subtitle {
