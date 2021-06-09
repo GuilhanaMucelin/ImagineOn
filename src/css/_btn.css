@@ -1,0 +1,48 @@
+.btn {
+    padding: 16px 40px;
+    color: var(--color-primary);
+    border: 2px solid #fff;
+    border-radius: 40px;
+    background: unset;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s all ease;
+  }
+  
+  .btn:hover,
+  .btn:active,
+  .btn:focus,
+  .btn--institutional {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+
+  .btn--institutional:hover {
+    color: var(--color-copy);
+    background: unset;
+    box-shadow: 0 16px 16px #0006;
+  }
+
+  .btn--quote {
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+  }
+
+  .footer_form button {
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    border: unset;
+    height: 48px;
+    width: 48px;
+    transition: 0.3s all ease;
+  }
+  
+  .footer_form button:hover {
+    color: #fff;
+    background-color: var(--color-copy);
+  }
