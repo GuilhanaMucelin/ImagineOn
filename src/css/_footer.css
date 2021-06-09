@@ -1,0 +1,92 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 84px 0 60px 0;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.logo-studion__subtitle {
+    display: block;
+}
+
+.footer_form {
+    display: grid;
+    grid-template-columns: 9ch auto;
+    place-items: center;
+    gap: 20px;
+}
+
+.footer_form label {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer_form fieldset {
+  position: relative;
+  border: unset;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer_form input {
+  width: 100%;
+  background-color: var(--color-primary);
+  border: unset;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer_form input::placeholder{
+  color: #000;
+}
+
+.footer_form input:focus {
+  outline: unset;
+}
+
+
+
+.footer_social {
+    justify-self: end;
+}
+
+.footer_social a,
+.footer_social a:visited,
+.footer_social a:active{
+  color: #fff;
+}
+
+.footer_social a .fa-twitter,
+.footer_social a:visited .fa-twitter,
+.footer_social a:active .fa-twitter{
+  color: #000;
+}
+
+.footer hr {
+  border-color: #fff4;
+  margin: 0;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 38px 0;
+}
