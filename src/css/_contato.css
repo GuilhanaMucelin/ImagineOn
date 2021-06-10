@@ -35,7 +35,7 @@
     grid-template-columns: 1.5rem auto;
     font-size: 17px;
     gap: 10px;
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 27px;
     font-family: "Roboto", sans-serif;
 }
@@ -53,7 +53,6 @@
 .contact__form__container {
     padding-left: 114px;
 }
-
 
 .contact__form label,
 .contact__form input {
@@ -77,6 +76,10 @@
 
 .contact__form input:focus {
     outline: unset;
+}
+
+.maps {
+    height: 580px;
 }
 
 .contact__form button {
