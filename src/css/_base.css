@@ -3,13 +3,12 @@
 }
 
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 16px;
 }
 
 body {
   margin: 0;
-  
 }
 
 header,
@@ -45,7 +44,6 @@ li {
   text-decoration: none;
   color: #fff;
 }
-
 
 .logo-studion__subtitle {
   font-size: 14px;

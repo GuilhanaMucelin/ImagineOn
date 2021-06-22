@@ -4,15 +4,17 @@
 }
 
 .hero__background {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    object-fit: contain;
     object-position: center;
+    object-fit: cover; /* faz com q a imagem se ajuste dentro dos parâmetros passados, sem distorção */
 }
 
 .hero__copy {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 25px;
     width: 50vw;
     padding: 100px 30px;
 }

@@ -1,0 +1,159 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+}
+
+.testimonial {
+  overflow: hidden;
+  position: relative;
+  height: 554px;
+}
+
+.testimonial__background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.testimonial__copy {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  width: 50vw;
+  padding: 100px 30px;
+}
+
+.testimonial__copy span {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.testimonial__copy h2 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 84px;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: -3px;
+  line-height: 120px;
+}
+
+.testimonial__copy p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.testimonial__copy-people {
+  height: 770px;
+  background-color: var(--color-primary);
+}
+
+.testimonial__copy-people img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 78px;
+}
+
+.testimonial__copy-people h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  letter-spacing: 1.9px;
+  font-weight: 700;
+  width: auto;
+}
+
+.testimonial__copy-people p {
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.testimonial__dados-people {
+  text-align: right;
+
+  margin: auto;
+}
+
+.people-1 {
+  max-width: 46ch;
+}
+
+.people-1 p {
+  margin-right: 3px;
+}
+
+.people-2 {
+  max-width: 43ch;
+}
+
+.people-2 p {
+  margin-right: 1px;
+}
+
+.people-3 {
+  max-width: 47ch;
+}
+
+.people-3 p {
+  margin-right: 6px;
+}
+
+.testimonial-people {
+  height: 130px;
+  margin: 0;
+  width: 580px;
+  margin: auto;
+  text-align: center;
+}
+
+.testimonial-people p {
+  text-align: center;
+  margin-top: 33px;
+}
+
+.testimonial-people .testimonial-aspas {
+  width: 34px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 232px;
+    opacity: 1 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 40px !important;
+    height: 74px !important;
+}
+
+.carousel-indicators {
+    margin-bottom: -60px;
+}
+
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100%;
+  margin-right: 15px !important;
+  opacity: 1 !important ;
+}
+
+.carousel-indicators button.active {
+  background-color: #000 !important;
+}
+
+.footer_form input {
+  font-family: revert;
+}
